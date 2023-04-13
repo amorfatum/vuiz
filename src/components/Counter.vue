@@ -1,39 +1,36 @@
 <script>
-import { ref, onMounted, onUnmounted } from 'vue'
-
+import { ref, reactive } from 'vue'
 
 const count = ref(0)
 
-export function incCount(){
-    count.value++;
-  }
-
-export function decCount(){
-    count.value--;
+export const incCount = () => {
+  count.value++;
 }
 
+export const decCount = () => {
+  count.value--;
+}
 
 export default {
+  setup(){
+    return {
+      count
+    }
+  }
 }
 </script>
 
 <template>
 <div id="app" class="counter">
   <span>Count is: {{ count }}</span>
-  <div>
-    <button @click="count++">
-      Increment
-    </button>
-    <button @click="count--">
-      Decrement
-    </button>
-  </div>
 </div>
 </template>
 
 <style scoped>
 .counter{
-    top: 50vh;
+  top: 50%;
+  left: 25%;
+  color: white;
+  font-size: large;
 }
-
 </style>

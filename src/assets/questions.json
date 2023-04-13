@@ -66,19 +66,19 @@
       "8": {
         "question": "Which of the following countries is not a member of the European Union?",
         "answers": [
-          {"option": "D", "text": "Norway", "correct": true},
-          {"option": "A", "text": "Spain"},
-          {"option": "B", "text": "Portugal"},
-          {"option": "C", "text": "Sweden"}
+          {"option": "A", "text": "Norway", "correct": true},
+          {"option": "B", "text": "Spain"},
+          {"option": "C", "text": "Portugal"},
+          {"option": "D", "text": "Sweden"}
         ]
       },
       "9": {
         "question": "Which of these famous mathematicians was Swiss?",
         "answers": [
           {"option": "A", "text": "Blaise Pascal"},
-          {"option": "D", "text": "Leonhard Euler", "correct": true},
-          {"option": "B", "text": "Carl Friedrich Gauss"},
-          {"option": "C", "text": "Isaac Newton"}
+          {"option": "B", "text": "Leonhard Euler", "correct": true},
+          {"option": "C", "text": "Carl Friedrich Gauss"},
+          {"option": "D", "text": "Isaac Newton"}
         ]
       },
       "10": {
@@ -86,8 +86,8 @@
         "answers": [
           {"option": "A", "text": "Kant"},
           {"option": "B", "text": "Hegel"},
-          {"option": "D", "text": "Nietzsche", "correct": true},
-          {"option": "C", "text": "Wittgenstein"}
+          {"option": "C", "text": "Nietzsche", "correct": true},
+          {"option": "D", "text": "Wittgenstein"}
         ]
       },
       "11": {
@@ -95,8 +95,8 @@
         "answers": [
           {"option": "A", "text": "New York City"},
           {"option": "B", "text": "Los Angeles"},
-          {"option": "D", "text": "Central Perk"},
-          {"option": "C", "text": "It's not specified", "correct": true}
+          {"option": "C", "text": "Central Perk"},
+          {"option": "D", "text": "It's not specified", "correct": true}
         ]
       },
       "12": {
@@ -104,8 +104,44 @@
         "answers" : [
           {"option": "A", "text": "Syd Barrett", "correct": true},
           {"option": "B", "text": "David Gilmour"},
-          {"option": "D", "text": "Nick Mason"},
-          {"option": "C", "text": "Roger Waters"}
+          {"option": "C", "text": "Nick Mason"},
+          {"option": "D", "text": "Roger Waters"}
+        ]
+      },
+      "13": {
+        "question": "What is the real name of the singer known by the stage name 'Akon'?",
+        "answers" : [
+          {"option": "A", "text": "Uvuveve Unyetewewe Ugwenugwen Osas Akon"},
+          {"option": "B", "text": "Michael Akon Dapaah"},
+          {"option": "C", "text": "Aliaune Damala Badara Akon Thiam", "correct": true},
+          {"option": "D", "text": "Calvin Cordozar Akon Broadus Jr."}
+        ]
+      },
+      "14": {
+        "question": "what was the specialty of the scientist from whom Walter White took the name 'Heisenberg' in the hit series 'breaking bad'?",
+        "answers" : [
+          {"option": "A", "text": "Physics", "correct": true},
+          {"option": "B", "text": "Chemistry"},
+          {"option": "C", "text": "Mathematics"},
+          {"option": "D", "text": "Biology"}
+        ]
+      },
+      "15": {
+        "question": "Who won the Best Actor Oscar for their role in the 2015 movie 'The Revenant'?",
+        "answers" : [
+          {"option": "A", "text": "Michael Fassbender"},
+          {"option": "B", "text": "Christopher Waltz"},
+          {"option": "C", "text": "Brad Pitt"},
+          {"option": "D", "text": "Leonardo DiCaprio", "correct": true}
+        ]
+      },
+      "16": {
+        "question": "What Bible verse did Jules Winnfield (Samuel L. Jackson) recite in the famous pulp fiction movie?",
+        "answers" : [
+          {"option": "A", "text": "Ezekiel 25:17 - The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil man.", "correct": true},
+          {"option": "B", "text": "Samuel 6:19 - And he smote the men of Beth-shemesh, because they had looked into the ark of the Lord, even he smote of the people fifty thousand and threescore and ten men"},
+          {"option": "C", "text": "Matthew 10:17 - Beware of men, for they will deliver you over to courts and flog you in their synagogues, and you will be dragged before governors and kings for my sake, to bear witness before them and the Gentiles."},
+          {"option": "D", "text": "Romans 8:7 - For the mind that is set on the flesh is hostile to God, for it does not submit to God's law; indeed, it cannot."}
         ]
       }
     }

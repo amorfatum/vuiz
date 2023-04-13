@@ -4,19 +4,19 @@
         <div class="answers">
             <div class="col1 row1">
                 <label for="questionA">{{ question["answers"][0]["option"] }}: </label>
-                <button id="questionA" value="A" @click="checkAnswer($event)">{{ question["answers"][0]["text"] }}</button>
+                <button id="questionA" class="questionButton" value="A" @click="checkAnswer($event)">{{ question["answers"][0]["text"] }}</button>
             </div>
             <div class="col2 row1">
                 <label for="questionB">{{ question["answers"][1]["option"] }}: </label>
-                <button id="questionB" value="B" @click="checkAnswer($event)">{{ question["answers"][1]["text"] }}</button>
+                <button id="questionB" class="questionButton" value="B" @click="checkAnswer($event)">{{ question["answers"][1]["text"] }}</button>
             </div>
             <div class="col1 row2">
                 <label for="questionC">{{ question["answers"][2]["option"] }}: </label>
-                <button id="questionC" value="C" @click="checkAnswer($event)">{{ question["answers"][2]["text"] }}</button>
+                <button id="questionC" class="questionButton" value="C" @click="checkAnswer($event)">{{ question["answers"][2]["text"] }}</button>
             </div>
             <div class="col2 row2">
                 <label for="questionD">{{ question["answers"][3]["option"] }}: </label>
-                <button id="questionD" value="D" @click="checkAnswer($event)">{{ question["answers"][3]["text"] }}</button>
+                <button id="questionD" class="questionButton" value="D" @click="checkAnswer($event)">{{ question["answers"][3]["text"] }}</button>
             </div>
         </div>
     </div>
@@ -27,10 +27,12 @@
   import questionsJson from '@/assets/questions.json'
   import {findHighestNumber} from '@/components/QuestionsGetHighestNumber.vue'
   import Counter from '@/components/Counter.vue'
-  import {incCount} from '@/components/Counter.vue'
+  import { incCount } from '@/components/Counter.vue'
   
   export default {
     setup() {
+      const count = ref(0)
+
       const selectedAnswer = ref(null)
       const questionNumber = ref(null)
   
@@ -57,7 +59,11 @@
         if (answer[0].correct) {
           //alert('Correct!')
           incCount()
+          console.log(count)
+          console.log('correct')
         } else {
+          console.log('wrong')
+          console.log(answer[0].correct)
           //alert('Incorrect.')
         }
   
@@ -68,7 +74,9 @@
       return {
         question,
         selectedAnswer,
-        checkAnswer
+        checkAnswer,
+        count,
+        incCount
       }
     },
     methods:{
@@ -80,17 +88,22 @@
   </script>
 
 <style>
-    #question{
-      top: 20vh;
-      color: red;
+    .questionCard{
+      top: 25%;
+      left: 25%;
+      color: white;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: large;
     }
 
     .answers{
-      top: 20vh;
       display: grid;
       grid-auto-flow: column;
       grid-row-gap: 20px;
+    }
+
+    .questionButton{
+      font-size: large;
     }
 
     .col1{
