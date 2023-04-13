@@ -1,0 +1,112 @@
+{
+    "questions": {
+      "1": {
+        "question": "What is the capital of France?",
+        "answers": [
+          {"option": "A", "text": "Madrid"},
+          {"option": "B", "text": "Paris", "correct": true},
+          {"option": "C", "text": "Rome"},
+          {"option": "D", "text": "Berlin"}
+        ]
+      },
+      "2": {
+        "question": "What is the largest planet in our solar system?",
+        "answers": [
+          {"option": "A", "text": "Venus"},
+          {"option": "B", "text": "Jupiter", "correct": true},
+          {"option": "C", "text": "Saturn"},
+          {"option": "D", "text": "Mars"}
+        ]
+      },
+      "3": {
+        "question": "Which element has the chemical symbol Fe?",
+        "answers": [
+          {"option": "A", "text": "Fluorine"},
+          {"option": "B", "text": "Iron", "correct": true},
+          {"option": "C", "text": "Magnesium"},
+          {"option": "D", "text": "Zinc"}
+        ]
+      },
+      "4": {
+        "question": "What is the highes mountain peak in the world?",
+        "answers": [
+          {"option": "A", "text": "K2"},
+          {"option": "B", "text": "Mount Everest", "correct": true},
+          {"option": "C", "text": "Kilimanjaro"},
+          {"option": "D", "text": "Denali"}
+        ]
+      },
+      "5": {
+        "question": "Who wrote the novel 'The Catcher in the Rye' (Der Fänger im Roggen)?",
+        "answers": [
+          {"option": "A", "text": "William Faulkner"},
+          {"option": "B", "text": "Harper Lee"},
+          {"option": "C", "text": "J.D. Salinger", "correct": true},
+          {"option": "D", "text": "Ernes Hemingway"}
+        ]
+      },
+      "6": {
+        "question": "Who directed the Movie '2001:A Space Odysey'",
+        "answers": [
+          {"option": "A", "text": "James Cameron"},
+          {"option": "B", "text": "Wes Anderson"},
+          {"option": "C", "text": "Quentin Tarantino"},
+          {"option": "D", "text": "Stanley Kubrick", "correct": true}
+        ]
+      },
+      "7": {
+        "question": "What is the only continent that exists in all four hemispheres?",
+        "answers": [
+          {"option": "A", "text": "Asia"},
+          {"option": "B", "text": "Africa"},
+          {"option": "C", "text": "South America"},
+          {"option": "D", "text": "Antarctica", "correct": true}
+        ]
+      },
+      "8": {
+        "question": "Which of the following countries is not a member of the European Union?",
+        "answers": [
+          {"option": "D", "text": "Norway", "correct": true},
+          {"option": "A", "text": "Spain"},
+          {"option": "B", "text": "Portugal"},
+          {"option": "C", "text": "Sweden"}
+        ]
+      },
+      "9": {
+        "question": "Which of these famous mathematicians was Swiss?",
+        "answers": [
+          {"option": "A", "text": "Blaise Pascal"},
+          {"option": "D", "text": "Leonhard Euler", "correct": true},
+          {"option": "B", "text": "Carl Friedrich Gauss"},
+          {"option": "C", "text": "Isaac Newton"}
+        ]
+      },
+      "10": {
+        "question": "Which 19th-century German philosopher is known for his ideas on the 'will to power' and 'eternal recurrence'?",
+        "answers": [
+          {"option": "A", "text": "Kant"},
+          {"option": "B", "text": "Hegel"},
+          {"option": "D", "text": "Nietzsche", "correct": true},
+          {"option": "C", "text": "Wittgenstein"}
+        ]
+      },
+      "11": {
+        "question": "What is the name of the fictional city where the TV series 'Friends' is set?",
+        "answers": [
+          {"option": "A", "text": "New York City"},
+          {"option": "B", "text": "Los Angeles"},
+          {"option": "D", "text": "Central Perk"},
+          {"option": "C", "text": "It's not specified", "correct": true}
+        ]
+      },
+      "12": {
+        "question": "Who was the original frontman and founding member of the British rock band Pink Floyd?",
+        "answers" : [
+          {"option": "A", "text": "Syd Barrett", "correct": true},
+          {"option": "B", "text": "David Gilmour"},
+          {"option": "D", "text": "Nick Mason"},
+          {"option": "C", "text": "Roger Waters"}
+        ]
+      }
+    }
+  }
